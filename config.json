@@ -1,0 +1,11 @@
+{
+  "base_url": "https://pokeapi.co/api/v2/pokemon/",
+  "verify_ssl": false,
+  "save_raw": true,
+  "timeout": 10,
+  "pokemon_count": 150,
+  "pokemon_csv": "pokemon.csv",
+  "type_csv": "type.csv",
+  "pokemon_types_csv": "pokemon_types.csv",
+  "type_averages_csv": "type_averages.csv"
+}
