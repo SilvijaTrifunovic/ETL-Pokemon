@@ -184,4 +184,4 @@ electric    317.89
 ```
 
 ## Summary
-This project provides a compact, clean, and functional ETL pipeline for PokeAPI data, demonstrating modular design, validation, logging, and reproducible outputs. 
+This project provides a compact, clean, and functional ETL pipeline for PokeAPI data, demonstrating modular design, validation, logging, and reproducible outputs.
