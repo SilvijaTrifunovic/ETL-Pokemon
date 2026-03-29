@@ -14,7 +14,13 @@ def load_config() -> dict:
     if "base_url" not in config:
         raise KeyError("Missing required config key: 'base_url'")
 
+    if "timeout" not in config:
+        config["timeout"] = 10
+
     # Extra validation (type checking)
+    if not isinstance(config["timeout"], int):
+        raise TypeError("timeout must be an integer (seconds)")
+    
     if not isinstance(config["base_url"], str):
         raise TypeError("base_url must be a string")
 
